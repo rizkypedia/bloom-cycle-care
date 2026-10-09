@@ -1,0 +1,300 @@
+:root {
+  --header-bg: #fbf8f2;
+  --surface-bg: #f7f5ee;
+  --card-bg: #fffefa;
+  --card-border: #ebe8de;
+  --text-dark: #343d35;
+  --text-muted: #788078;
+  --primary: #74896e;
+  --primary-dark: #5f7659;
+  --primary-soft: #edf2e8;
+  --accent: #d88b79;
+  --shadow: 0 24px 64px rgba(77, 83, 67, 0.1);
+  --panel-bg: #f1f4e9;
+}
+
+.app {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  color: var(--text-dark);
+  background:
+    radial-gradient(ellipse at 10% 25%, rgba(234, 218, 198, 0.3), transparent 30rem),
+    radial-gradient(ellipse at 90% 70%, rgba(220, 229, 207, 0.42), transparent 34rem),
+    var(--surface-bg);
+}
+
+.header {
+  min-height: 5rem;
+  padding: 1rem clamp(1.25rem, 5vw, 4.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 254, 250, 0.72);
+  border-bottom: 1px solid rgba(224, 222, 211, 0.7);
+}
+
+.header__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.header__mark {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+.header__mark::before,
+.header__mark::after {
+  position: absolute;
+  content: "";
+  width: 0.5rem;
+  height: 0.9rem;
+  top: 0.25rem;
+  left: 0.625rem;
+  border-radius: 100% 100% 45% 45%;
+  background: #f7f5ee;
+}
+
+.header__mark::after {
+  transform: rotate(90deg);
+}
+
+.header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(2rem, 6vw, 5rem) 1rem;
+}
+
+.ovu_calculator {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  width: min(100%, 34rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: clamp(1.5rem, 5vw, 2.75rem);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.ovu_calculator::before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 15rem;
+  height: 15rem;
+  top: -10rem;
+  right: -7rem;
+  border: 1px solid rgba(216, 139, 121, 0.18);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1.4rem rgba(216, 139, 121, 0.045), 0 0 0 2.8rem rgba(216, 139, 121, 0.035);
+  pointer-events: none;
+}
+
+.ovu_intro {
+  margin-bottom: 0.35rem;
+}
+
+.ovu_intro__eyebrow {
+  margin: 0 0 0.65rem;
+  color: var(--primary-dark);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.ovu_intro h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.9rem, 6vw, 2.6rem);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1.13;
+}
+
+.ovu_intro__copy {
+  max-width: 27rem;
+  margin: 0.75rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.ovu_pick_date,
+.ovu_period {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.ovu_pick_date__heading,
+.ovu_period__header {
+  margin: 0;
+}
+
+.ovu_pick_date__heading h3,
+.ovu_period__header h3 {
+  margin: 0;
+  color: var(--text-dark);
+  font-size: 0.98rem;
+  font-weight: 650;
+}
+
+.ovu_field_hint {
+  margin: -0.2rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.ovu_pick_date__picker,
+.ovu_period__input {
+  display: flex;
+}
+
+.ovu_pick_date__picker input,
+.ovu_period__input input {
+  width: 100%;
+  min-height: 3.4rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #e2e3d9;
+  border-radius: 0.9rem;
+  background: #fbfaf6;
+  color: var(--text-dark);
+  font: inherit;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.ovu_pick_date__picker input:focus,
+.ovu_period__input input:focus {
+  outline: none;
+  border-color: var(--primary);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(116, 137, 110, 0.16);
+}
+
+.ovu_button {
+  display: flex;
+  justify-content: stretch;
+  margin-top: 0.05rem;
+}
+
+.ovu_button button {
+  width: 100%;
+  min-height: 3.5rem;
+  padding: 0.8rem 1.25rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fffefa;
+  font: inherit;
+  font-size: 0.98rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(95, 118, 89, 0.2);
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ovu_button button:hover {
+  transform: translateY(-1px);
+  background: var(--primary-dark);
+  box-shadow: 0 11px 22px rgba(95, 118, 89, 0.25);
+}
+
+.ovu_button button:focus-visible {
+  outline: 3px solid rgba(116, 137, 110, 0.4);
+  outline-offset: 3px;
+}
+
+.ovu_result_panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 7.5rem;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid #e2e8d8;
+  border-radius: 1.2rem;
+  background: var(--panel-bg);
+}
+
+.ovu_result_panel.is-visible {
+  border-color: #dbe3cf;
+  background: linear-gradient(135deg, #f0f4e9 0%, #f8f3eb 100%);
+}
+
+.ovu_result_panel__label {
+  margin: 0 0 0.4rem;
+  color: var(--primary-dark);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.ovu_result_panel h4 {
+  margin: 0;
+  color: var(--text-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 5vw, 1.85rem);
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.ovu_result_panel__meta,
+.ovu_result_panel__empty {
+  margin: 0.5rem 0 0;
+  color: #697369;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.footer {
+  padding: 1.1rem 1.5rem;
+  color: #7c8278;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .header {
+    min-height: 4.5rem;
+  }
+
+  .content {
+    padding: 1.75rem 0.8rem;
+  }
+
+  .ovu_calculator {
+    gap: 1.35rem;
+    border-radius: 1.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
