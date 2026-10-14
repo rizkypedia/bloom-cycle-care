@@ -1,0 +1,16 @@
+{
+  "brand": "Bloom cycle care",
+  "eyebrow": "YOUR CYCLE, YOUR WAY",
+  "introTitle": "A little more in tune with your body.",
+  "introCopy": "Get a gentle estimate of your ovulation day and fertile window. Every cycle is different, so think of this as a helpful guide.",
+  "dateQuestion": "When did your last period start?",
+  "dateHint": "Choose the first day of your most recent period.",
+  "periodQuestion": "How long is your cycle?",
+  "periodHint": "Count from the first day of one period to the next.",
+  "button": "See my fertile window",
+  "resultLabel": "Your estimated ovulation day",
+  "fertileWindowLabel": "Fertile window",
+  "cycleInsightLabel": "Your cycle insight",
+  "emptyState": "Add a couple of details above to see your estimated fertile window.",
+  "footer": "A gentle guide to understanding your cycle."
+}

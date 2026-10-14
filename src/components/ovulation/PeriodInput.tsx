@@ -1,13 +1,17 @@
+import type { LanguageCode, LanguageDictionary } from "../../lang/lang";
+
 type OvulationPeriodInputProps = {
     value: string;
     onChange: (value: string) => void;
+    language: LanguageCode;
+    translations: LanguageDictionary;
 };
 
-function OvulationPeriodInput({ value, onChange }: OvulationPeriodInputProps) {
+function OvulationPeriodInput({ value, onChange, translations }: OvulationPeriodInputProps) {
     return (
         <div className="ovu_period">
             <div className="ovu_period__header">
-                <h3 id="cycle-length-heading">How long is your cycle?</h3>
+                <h3 id="cycle-length-heading">{translations.periodQuestion}</h3>
             </div>
             <div className="ovu_period__input">
                 <input
@@ -22,7 +26,7 @@ function OvulationPeriodInput({ value, onChange }: OvulationPeriodInputProps) {
                     placeholder="28"
                 />
             </div>
-            <p className="ovu_field_hint">Count from the first day of one period to the next.</p>
+            <p className="ovu_field_hint">{translations.periodHint}</p>
         </div>
     )
 }

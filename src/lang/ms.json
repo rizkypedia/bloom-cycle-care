@@ -1,0 +1,16 @@
+{
+  "brand": "Bloom cycle care",
+  "eyebrow": "KITARAN ANDA, CARA ANDA",
+  "introTitle": "Sedikit lebih selaras dengan badan anda.",
+  "introCopy": "Dapatkan anggaran lembut tentang hari ovulasi dan jendela subur anda. Setiap kitaran berbeza, jadi anggap ini sebagai panduan yang membantu.",
+  "dateQuestion": "Bilakah tempoh terakhir anda bermula?",
+  "dateHint": "Pilih hari pertama tempoh terakhir anda.",
+  "periodQuestion": "Berapa lama kitaran anda?",
+  "periodHint": "Kira dari hari pertama satu tempoh hingga ke tempoh seterusnya.",
+  "button": "Lihat jendela subur saya",
+  "resultLabel": "Hari ovulasi yang dianggarkan",
+  "fertileWindowLabel": "Jendela subur",
+  "cycleInsightLabel": "Pandangan kitaran anda",
+  "emptyState": "Tambah beberapa butiran di atas untuk melihat jendela subur yang dianggarkan.",
+  "footer": "Panduan lembut untuk memahami kitaran anda."
+}

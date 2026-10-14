@@ -1,0 +1,16 @@
+{
+  "brand": "Bloom cycle care",
+  "eyebrow": "SIKLUS ANDA, CARA ANDA",
+  "introTitle": "Sedikit lebih selaras dengan tubuh Anda.",
+  "introCopy": "Dapatkan perkiraan lembut tentang hari ovulasi dan jendela subur Anda. Setiap siklus berbeda, jadi anggap ini sebagai panduan yang membantu.",
+  "dateQuestion": "Kapan menstruasi terakhir Anda dimulai?",
+  "dateHint": "Pilih hari pertama menstruasi terakhir Anda.",
+  "periodQuestion": "Berapa lama siklus Anda?",
+  "periodHint": "Hitung dari hari pertama satu periode sampai periode berikutnya.",
+  "button": "Lihat jendela subur saya",
+  "resultLabel": "Hari ovulasi yang diperkirakan",
+  "fertileWindowLabel": "Jendela subur",
+  "cycleInsightLabel": "Wawasan siklus Anda",
+  "emptyState": "Tambahkan beberapa detail di atas untuk melihat jendela subur yang diperkirakan.",
+  "footer": "Panduan lembut untuk memahami siklus Anda."
+}

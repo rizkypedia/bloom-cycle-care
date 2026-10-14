@@ -1,7 +1,11 @@
-function Footer () {
+type FooterProps = {
+  text: string
+}
+
+function Footer({ text }: FooterProps) {
     return (
         <footer className='footer'>
-          A gentle guide to understanding your cycle.
+          {text}
         </footer>
     )
 }

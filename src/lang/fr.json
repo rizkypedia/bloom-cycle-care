@@ -1,0 +1,16 @@
+{
+  "brand": "Bloom cycle care",
+  "eyebrow": "VOTRE CYCLE, VOTRE FAÇON",
+  "introTitle": "Un peu plus en phase avec votre corps.",
+  "introCopy": "Obtenez une estimation douce de votre jour de ovulation et de votre fenêtre fertile. Chaque cycle est différent, alors considérez ceci comme un guide utile.",
+  "dateQuestion": "Quand a commencé votre dernière période ?",
+  "dateHint": "Choisissez le premier jour de votre dernière période.",
+  "periodQuestion": "Quelle est la durée de votre cycle ?",
+  "periodHint": "Comptez à partir du premier jour d'une période jusqu'au suivant.",
+  "button": "Voir ma fenêtre fertile",
+  "resultLabel": "Votre jour d'ovulation estimé",
+  "fertileWindowLabel": "Fenêtre fertile",
+  "cycleInsightLabel": "Votre aperçu du cycle",
+  "emptyState": "Ajoutez quelques détails ci-dessus pour voir votre fenêtre fertile estimée.",
+  "footer": "Un guide doux pour comprendre votre cycle."
+}

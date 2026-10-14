@@ -1,0 +1,16 @@
+{
+  "brand": "Bloom cycle care",
+  "eyebrow": "DEIN ZYKLUS, DEINE WEISE",
+  "introTitle": "Ein bisschen mehr im Einklang mit deinem Körper.",
+  "introCopy": "Erhalte eine sanfte Schätzung deines Eisprungtages und deines fruchtbaren Zeitraums. Jeder Zyklus ist anders; denke daran als hilfreichen Leitfaden.",
+  "dateQuestion": "Wann begann deine letzte Periode?",
+  "dateHint": "Wähle den ersten Tag deiner letzten Periode.",
+  "periodQuestion": "Wie lang ist dein Zyklus?",
+  "periodHint": "Zähle vom ersten Tag einer Periode bis zum ersten Tag der nächsten.",
+  "button": "Meinen fruchtbaren Zeitraum sehen",
+  "resultLabel": "Dein geschätzter Eisprungstag",
+  "fertileWindowLabel": "Fruchtbarer Zeitraum",
+  "cycleInsightLabel": "Deine Zyklus-Info",
+  "emptyState": "Gib oben ein paar Details ein, um deinen geschätzten fruchtbaren Zeitraum zu sehen.",
+  "footer": "Ein sanfter Leitfaden, um deinen Zyklus zu verstehen."
+}
