@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import OvulationCalculator from './components/ovulation/Calculator'
-import { translations, type LanguageCode } from './lang'
+import { translations, type LanguageCode } from './lang/lang'
 
 const STORAGE_KEY = 'bloom-language'
 

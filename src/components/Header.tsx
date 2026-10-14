@@ -1,4 +1,4 @@
-import { languageOptions, type LanguageCode } from '../lang'
+import { languageOptions, type LanguageCode } from '../lang/lang'
 
 type HeaderProps = {
     language: LanguageCode

@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { languageLocaleMap, type LanguageCode, type LanguageDictionary } from "../../lang";
+import { languageLocaleMap, type LanguageCode, type LanguageDictionary } from "../../lang/lang";
 import { calculateOvulationDates } from "../../lib/ovulation";
 import OvulationDatepicker from "./DatePicker";
 import OvulationPeriodInput from "./PeriodInput";

@@ -1,5 +1,5 @@
 import { calculateOvulationDates } from "../src/lib/ovulation";
-import { languageOptions, translations } from "../src/lang";
+import { languageOptions, translations } from "../src/lang/lang";
 
 function toDateKey(date: Date): string {
     const year = date.getFullYear();

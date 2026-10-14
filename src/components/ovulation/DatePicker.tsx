@@ -1,4 +1,4 @@
-import type { LanguageCode, LanguageDictionary } from "../../lang";
+import type { LanguageCode, LanguageDictionary } from "../../lang/lang";
 
 type OvulationDatepickerProps = {
     value: string;
