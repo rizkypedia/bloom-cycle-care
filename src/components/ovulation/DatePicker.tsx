@@ -1,13 +1,17 @@
+import type { LanguageCode, LanguageDictionary } from "../../lang";
+
 type OvulationDatepickerProps = {
     value: string;
     onChange: (value: string) => void;
+    language: LanguageCode;
+    translations: LanguageDictionary;
 };
 
-function OvulationDatepicker ({ value, onChange }: OvulationDatepickerProps) {
+function OvulationDatepicker({ value, onChange, translations }: OvulationDatepickerProps) {
     return (
         <div className="ovu_pick_date">
             <div className="ovu_pick_date__heading">
-                <h3 id="period-start-heading">When did your last period start?</h3>
+                <h3 id="period-start-heading">{translations.dateQuestion}</h3>
             </div>
             <div className="ovu_pick_date__picker">
                 <input
@@ -18,7 +22,7 @@ function OvulationDatepicker ({ value, onChange }: OvulationDatepickerProps) {
                     onChange={(event) => onChange(event.target.value)}
                 />
             </div>
-            <p className="ovu_field_hint">Choose the first day of your most recent period.</p>
+            <p className="ovu_field_hint">{translations.dateHint}</p>
         </div>
     )
 }

@@ -1,0 +1,16 @@
+{
+  "brand": "Bloom cycle care",
+  "eyebrow": "JE CYCLUS, JE EIGEN MANIER",
+  "introTitle": "Een beetje meer in tune met je lichaam.",
+  "introCopy": "Krijg een zachte schatting van je ovulatiedag en vruchtbare periode. Elke cyclus is anders, dus zie dit als een handige gids.",
+  "dateQuestion": "Wanneer begon je laatste menstruatie?",
+  "dateHint": "Kies de eerste dag van je laatste menstruatie.",
+  "periodQuestion": "Hoe lang is je cyclus?",
+  "periodHint": "Tel vanaf de eerste dag van één menstruatie tot de volgende.",
+  "button": "Bekijk mijn vruchtbare periode",
+  "resultLabel": "Je geschatte ovulatiedag",
+  "fertileWindowLabel": "Vruchtbare periode",
+  "cycleInsightLabel": "Je cyclusinformatie",
+  "emptyState": "Voeg bovenaan een paar details toe om je geschatte vruchtbare periode te zien.",
+  "footer": "Een zachte gids om je cyclus te begrijpen."
+}

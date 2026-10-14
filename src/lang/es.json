@@ -1,0 +1,16 @@
+{
+  "brand": "Bloom cycle care",
+  "eyebrow": "TU CICLO, A TU MANERA",
+  "introTitle": "Un poco más en sintonía con tu cuerpo.",
+  "introCopy": "Obtén una estimación suave de tu día de ovulación y tu ventana fértil. Cada ciclo es diferente, así que piensa en esto como una guía útil.",
+  "dateQuestion": "¿Cuándo empezó tu última menstruación?",
+  "dateHint": "Elige el primer día de tu última menstruación.",
+  "periodQuestion": "¿Cuánto dura tu ciclo?",
+  "periodHint": "Cuenta desde el primer día de un periodo hasta el siguiente.",
+  "button": "Ver mi ventana fértil",
+  "resultLabel": "Tu día estimado de ovulación",
+  "fertileWindowLabel": "Ventana fértil",
+  "cycleInsightLabel": "Tu información del ciclo",
+  "emptyState": "Añade algunos detalles arriba para ver tu ventana fértil estimada.",
+  "footer": "Una guía amable para comprender tu ciclo."
+}

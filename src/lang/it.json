@@ -1,0 +1,16 @@
+{
+  "brand": "Bloom cycle care",
+  "eyebrow": "IL TUO CICLO, A TUO MODI",
+  "introTitle": "Un po' più in sintonia con il tuo corpo.",
+  "introCopy": "Ottieni una stima delicata del tuo giorno di ovulazione e della finestra fertile. Ogni ciclo è diverso, quindi considera questa guida un utile riferimento.",
+  "dateQuestion": "Quando è iniziata l'ultima mestruazione?",
+  "dateHint": "Scegli il primo giorno dell'ultima mestruazione.",
+  "periodQuestion": "Quanto dura il tuo ciclo?",
+  "periodHint": "Conta dal primo giorno di un ciclo mestruale fino al successivo.",
+  "button": "Vedi la mia finestra fertile",
+  "resultLabel": "Il tuo giorno di ovulazione stimato",
+  "fertileWindowLabel": "Finestra fertile",
+  "cycleInsightLabel": "Le tue informazioni sul ciclo",
+  "emptyState": "Aggiungi alcuni dettagli qui sopra per vedere la tua finestra fertile stimata.",
+  "footer": "Una guida gentile per comprendere il tuo ciclo."
+}

@@ -1,4 +1,5 @@
 import { calculateOvulationDates } from "../src/lib/ovulation";
+import { languageOptions, translations } from "../src/lang";
 
 function toDateKey(date: Date): string {
     const year = date.getFullYear();
@@ -35,5 +36,17 @@ describe("calculateOvulationDates", () => {
         ["a non-finite cycle length", "2026-09-01", Number.NaN],
     ])("returns null for %s", (_description, periodStartDate, cycleLength) => {
         expect(calculateOvulationDates(periodStartDate, cycleLength)).toBeNull();
+    });
+});
+
+describe("language resources", () => {
+    it("exposes all supported locale entries and options", () => {
+        const supportedCodes = Object.keys(translations);
+
+        expect(supportedCodes).toEqual(["en", "de", "fr", "es", "it", "nl", "id", "ms"]);
+        expect(languageOptions).toHaveLength(8);
+        expect(languageOptions.map((option) => option.code)).toEqual(supportedCodes);
+        expect(translations.en.brand).toBe("Bloom cycle care");
+        expect(translations.de.button).toBe("Meinen fruchtbaren Zeitraum sehen");
     });
 });
